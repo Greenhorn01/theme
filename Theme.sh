@@ -15,7 +15,7 @@ os.system('gem install lolcat')
 output = '/data/data/com.termux/files/usr/etc/'
 
 print('')
-name = raw_input('Input your Name : ')
+name = raw_input('WRITE YOUR NAME : ')
 
 wlc = '''
 import os,sys,time,random
@@ -46,7 +46,7 @@ echo
 bashrc2 = '''
 echo "
                 GREEN HORN HACKER
-  WELCOME BACK TO YOUR TERMINAL HACKER
+         WELCOME BACK TO YOUR TERMINAL HACKER
    < ━━━━━━━━━━━ [★]GREEN HORN [★] ━━━━━━━━━━━━ > " |lolcat
 
 python /data/data/com.termux/files/usr/etc/wlc.py
